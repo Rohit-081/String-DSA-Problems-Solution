@@ -9,7 +9,7 @@ function binarySubstring(n, a) {
       count = count + 1;
     }
   }
-  let l = count - 1;
+  let l = count;
   sum = (l * (l - 1)) / 2;
   return console.log(sum);
 }
